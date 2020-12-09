@@ -28,6 +28,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit some common Pixel Experience stuff
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier
